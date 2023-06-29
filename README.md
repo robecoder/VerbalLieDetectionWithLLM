@@ -1,12 +1,10 @@
 # VerbalLieDetectionWithLLM
 This is the repository that contains the code used to produce the results of the paper Verbal Lie Detection using  Large Language Models
 
-The code for the fine-tuning is divided in this way:
+datasets....
 
-CvexpSc1Decop, CvexpSc1Hyppocorpus, CvexpSc1Intention contain the code for the experiments regarding the Scenario 1 with small and base model with Opinion, Memory and Intention datasets respectively.
+In the LieDetection folder there is the code to perform the fine-tuning of the Flan-T5 on every scenario with each configuration
 
-CvexpSc2 contains the code for the scenario 2 with small and base model
+In the Explainability_analysis folder there is the code to replicate the results of the Explanability analysis
 
-CvexpSc3Small and CvexpSc3Base contain the code for the scenario 3 with small and base model respectively.
-
-
+In the Descriptive_linguistic_analysis there is the code to replicate the results of the Descriptive linguistic analysis
